@@ -39,7 +39,6 @@ public class KoodiViewTest {
 		assertNotNull(h2, "H2 component not found");
 		assertNotNull(textField, "TextField component not found");
 		assertNotNull(button, "Button component not found");
-		System.out.println(textField.getPlaceholder());
 
 		assertEquals("Enter the course code", textField.getPlaceholder(),
 
