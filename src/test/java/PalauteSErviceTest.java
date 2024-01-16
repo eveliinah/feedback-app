@@ -51,6 +51,4 @@ public class PalauteSErviceTest {
         List<Palaute> result = palauteService.findAllGoodByIDAndDate(mockKurssi, mockLocalDate);
         assertEquals(1, result.size());
     }
-
-    // Add more test methods as needed for other public methods in PalauteService
 }
