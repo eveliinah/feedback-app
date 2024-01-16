@@ -80,12 +80,10 @@ public class KurssitView extends VerticalLayout {
 
 		Image img = new Image("images/empty-plant.png", "placeholder plant");
 		img.setWidth("90px");
-		// add(img);
 
 		add(new H2(messages.getString("courses") + " 📊  🗂 📚 "));
 
 		grid = new Grid<>(Kurssi.class, false);
-		// grid.addColumn(Kurssi::getId).setHeader("ID");
 		grid.addColumn(Kurssi::getNimi).setHeader(messages.getString("name"));
 		grid.addColumn(Kurssi::getKoodi).setHeader(messages.getString("code"));
 		grid.addColumn(Kurssi::getAloitusPvm).setHeader(messages.getString("startDay"));
@@ -130,8 +128,6 @@ public class KurssitView extends VerticalLayout {
 		grid.addSelectionListener(selection -> {
 			Optional<Kurssi> valittuKurssi = selection.getFirstSelectedItem();
 			if (valittuKurssi.isPresent()) {
-				// Notification.show(valittuKurssi.get().getNimi() +" "+
-				// messages.getString("chosen") + ", " + + valittuKurssi.get().getId());
 				ComponentUtil.setData(UI.getCurrent(), "kurssi", valittuKurssi.get().getId());
 				kurssiService.setNykyinenKurssiId(valittuKurssi.get().getId());
 
