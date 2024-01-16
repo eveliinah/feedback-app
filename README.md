@@ -1,6 +1,6 @@
 # Palwiz
 
-Palwiz on opettajille ja oppilaille suunniteltu web-sovellus, jossa opiskelijat voivat antaa palautetta oppitunneista. Palautetta annetaan valitsemalla kolmesta väristä sopiva vaihtoehto. Punainen kuvastaa huonoa kokemusta, keltainen kuvastaa keskivertoa ja vihreä kuvastaa hyvää kokemusta. Opettaja näkee oppilaiden vastaukset anonyymeinä. Oppilas antaa sovellukseen kurssin koodin, jonka jälkeen hän pääsee antamaan palautetta. Palautteen antaminen on avoinna vain kurssille määriteltyinä ajankohtina.
+Palwiz on opettajille ja oppilaille suunniteltu web-sovellus, jossa opiskelijat voivat antaa palautetta oppitunneista. Palautetta annetaan valitsemalla kolmesta väristä sopiva vaihtoehto. Punainen kuvastaa huonoa kokemusta, keltainen kuvastaa keskivertoa ja vihreä kuvastaa hyvää kokemusta. Opettaja näkee oppilaiden vastaukset anonyymeinä. Oppilas antaa sovellukseen kurssin koodin, jonka jälkeen hän pääsee antamaan palautetta. Palautteen antaminen on avoinna vain kurssille määriteltyinä ajankohtina. Koodi generoituu kurssille automaattisesti.
 
 Opettaja pystyy luomaan itselleen tunnukset sovellukseen. Sovellukseen kirjautuneena pystyy lisäämään uusia kursseja ja tarkastelemaan saatuja palautteita kurssikohtaisesti. Palautteet tallennetaan tietokantaan. Palautteiden avulla opettajan on mahdollista kehittää oppituntejaan paremmiksi. Sovellusta voi käyttää sekä suomeksi että englanniksi.
 
@@ -45,3 +45,18 @@ Sovellusta on testattu monin tavoin koko prosessin ajan. Testien tekemiseen on k
 - Lue Vaadinin dokumentaatiota [vaadin.com/docs](https://vaadin.com/docs).
 - Lue tutoriaaleja [vaadin.com/tutorials](https://vaadin.com/tutorials).
 - Katso videoita [vaadin.com/learn/training](https://vaadin.com/learn/training).
+
+## Näkymät
+Syötä koodi päästäksesi antamaan palautetta oikealle kurssille: <br><br>
+<img src="koodi.jpg" width="640"><br><br>
+Anna palautetta oppitunnista: <br><br>
+<img src="palaute.jpg" width="640"><br><br>
+Kirjaudu opettajana sisään: <br><br>
+<img src="kirjaudu.jpg" width="211"><br><br>
+Tarkastele kurssilistaa: <br><br>
+<img src="kurssit.jpg" width="640"><br><br>
+Tarkastele kurssin palautteita: <br><br>
+<img src="tarkastele.jpg" width="641"><br><br>
+Luo uusia kursseja: <br><br>
+<img src="uusi.jpg" width="634"><br><br>
+
