@@ -11,7 +11,6 @@ public class LanguageSelector extends Select<String> {
     private final Map<String, Locale> languageMap;
 
     public LanguageSelector() {
-        // setLabel("Language");
         languageMap = new HashMap<>();
         languageMap.put("fi", new Locale("fi", "FI"));
         languageMap.put("en", new Locale("en", "EN"));
