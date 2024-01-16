@@ -1,3 +1,12 @@
+# Course feedback application
+Used technologies:
+- Java
+- Vaadin Framework
+- Spring Boot
+- JUnit
+- Maven
+- MariaDB & H2
+  
 # Palwiz
 
 Palwiz on opettajille ja oppilaille suunniteltu web-sovellus, jossa opiskelijat voivat antaa palautetta oppitunneista. Palautetta annetaan valitsemalla kolmesta väristä sopiva vaihtoehto. Punainen kuvastaa huonoa kokemusta, keltainen kuvastaa keskivertoa ja vihreä kuvastaa hyvää kokemusta. Opettaja näkee oppilaiden vastaukset anonyymeinä. Oppilas antaa sovellukseen kurssin koodin, jonka jälkeen hän pääsee antamaan palautetta. Palautteen antaminen on avoinna vain kurssille määriteltyinä ajankohtina. Koodi generoituu kurssille automaattisesti.
