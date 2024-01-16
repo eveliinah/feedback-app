@@ -106,7 +106,6 @@ public class KurssiView extends Div {
         aloitusPvm.addValueChangeListener(e -> lopetusPvm.setMin(e.getValue()));
         lopetusPvm.addValueChangeListener(e -> aloitusPvm.setMax(e.getValue()));
 
-        //checkboxGroup.addThemeVariants(CheckboxGroupVariant.LUMO_VERTICAL);
         palauteAlkaa.setLabel(messages.getString("givingStart"));
         palauteAlkaa.setStep(Duration.ofMinutes(15));
         palauteLoppuu.setLabel(messages.getString("givingEnd"));
@@ -156,7 +155,7 @@ public class KurssiView extends Div {
                 Kurssi kurssi = new Kurssi(nimi.getValue(), koodi, Date.valueOf(aloitusPvm.getValue().format(formatter)),
                         Date.valueOf(lopetusPvm.getValue().format(formatter)), user);
                 ks.saveKurssi(kurssi);
-                //Time.valueOf(palauteAlkaa.getValue()), Time.valueOf(palauteLoppuu.getValue())
+
                 Notification.show(messages.getString("newCourseName") + " " + nimi.getValue() + " " + messages.getString("created"));
                 tsekkaaBoksitJaLuoAanestykset(kurssi);
             }
