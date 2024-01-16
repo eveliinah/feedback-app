@@ -8,7 +8,6 @@ public class RoundButton extends Button {
 	public RoundButton(Image img) {
 		addClassName("round-button");
 		img.setClassName("rbutton");
-		// img.setWidth("200px");
 		Button roundBtn = new Button(img);
 		setIcon(img);
 	}
