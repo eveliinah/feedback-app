@@ -42,7 +42,5 @@ public class AanestaViewTest {
 
         assertNotNull(h2, "H2 component not found");
 
-        // You can also test the H2 text content if necessary
-        // assertEquals("Expected H2 text", h2.getText(), "H2 text is incorrect");
     }
 }
