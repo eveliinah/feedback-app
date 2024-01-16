@@ -48,9 +48,6 @@ public class MainLayout extends AppLayout {
         this.authenticatedUser = authenticatedUser;
         this.accessChecker = accessChecker;
         messages = ResourceBundle.getBundle("messages", currentLocale);
-        // LanguageSelector languageSelector = new LanguageSelector();
-        // addToNavbar(languageSelector);
-
         setPrimarySection(Section.NAVBAR);
         addDrawerContent();
 
@@ -77,18 +74,15 @@ public class MainLayout extends AppLayout {
         Header header = new Header(layout);
         Tabs tabs = createNavigation();
         board = new Board();
-        // board.setWidth("100%");
         Row row = new Row();
         row.add(header, 1);
         row.add(tabs, 1);
         Div div = new Div();
         div.setClassName("tayte-div");
-        // div.setWidth("0px");
         row.add(div, 1);
         board.addRow(row);
 
         addToNavbar(board);
-        // addToNavbar(header, tabs);
         createFooter();
     }
 
