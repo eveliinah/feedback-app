@@ -32,15 +32,12 @@ public class KiitosView extends VerticalLayout {
 		Image img = new Image("images/empty-plant.png", "");
 		img.setAlt("placeholder plant");
 		img.setWidth("200px");
-		// configureGrid();
+
 		add(img);
 		Button palaa = new Button(messages.getString("goBack"));
 		palaa.addClickListener(e -> palaa.getUI().ifPresent(ui -> ui.navigate("koodi")));
 
 		add(new H2(messages.getString("thankYouForFeedback")), palaa);
-		// Grid<Palaute> grid = new Grid<>(Palaute.class);
-		// grid.setItems(service.findAllPalautteet());
-		// add(grid);
 
 		setSizeFull();
 		setJustifyContentMode(JustifyContentMode.CENTER);
