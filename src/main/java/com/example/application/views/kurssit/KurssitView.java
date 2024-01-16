@@ -64,7 +64,6 @@ public class KurssitView extends VerticalLayout {
 
 		dialog.setCancelable(true);
 		dialog.setCancelText(messages.getString("cancel"));
-		// dialog.addCancelListener(event -> setStatus("Canceled"));
 
 		dialog.setConfirmText(messages.getString("remove"));
 		dialog.setConfirmButtonTheme("error primary");
@@ -119,10 +118,9 @@ public class KurssitView extends VerticalLayout {
 					});
 					button.setIcon(new Icon(VaadinIcon.ADJUST));
 				})).setHeader(messages.getString("edit"));
-		if(user != null) {
+
 		kurssit = service.findUserKurssit(user.getId());
 		grid.setItems(kurssit);
-		}
 
 		setSizeFull();
 		setJustifyContentMode(JustifyContentMode.CENTER);
